@@ -1,0 +1,28 @@
+{
+  "name": "store-exercise",
+  "version": "1.0.0",
+  "description": "Hello there!\r If you're here, chances are somebody at Mozantech thinks you're talented.\r This exercise is part of our recruitment process. \r It is designed to help us understand some of your competencies before moving forward.\r ## Goal",
+  "scripts": {
+    "start": "node start.js",
+    "format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
+    "posttest": "npm run format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prettier": ">=2"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozantech/store-parts-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mozantech/store-parts-exercise/issues"
+  },
+  "homepage": "https://github.com/Mozantech/store-parts-exercise#readme"
+}
