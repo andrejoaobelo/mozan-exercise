@@ -1,0 +1,11 @@
+@import './style/_variables.scss';
+
+html {
+    font-size: 14px;
+}
+
+.content {
+    border: 1px solid $soft-color;
+    border-radius: $border-radius;
+    padding: 2rem;
+}

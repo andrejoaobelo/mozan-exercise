@@ -1,0 +1,12 @@
+.filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    .filter {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}

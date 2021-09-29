@@ -1,0 +1,54 @@
+@import '../../style/_variables.scss';
+@import '../../style/_mixins.scss';
+
+.state-part {
+    &--table-row {
+        &:hover {
+            cursor: pointer;
+            background-color: $soft-color;
+        }
+    }
+
+    &--detail {
+        display: flex;
+        flex-direction: column;
+
+        .detail-info {
+            font-size: 1.5rem;
+
+            &__label {
+                @include center-flex;
+                display: inline-flex;
+                border: 1px solid $main-color;
+                border-radius: 10px;
+                padding: 0.5rem 1rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                min-width: 6rem;
+                margin-right: 1rem;
+            }
+
+            &--name {
+                .detail-info__label {
+                    background-color: $name-color;
+                }
+            }
+
+            &--type {
+                .detail-info__label {
+                    background-color: $type-color;
+                }
+            }
+
+            &--price {
+                .detail-info__label {
+                    background-color: $price-color;
+                }
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
